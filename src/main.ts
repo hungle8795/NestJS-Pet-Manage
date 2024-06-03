@@ -11,7 +11,7 @@ async function bootstrap() {
   app.setViewEngine("ejs");
   app.setLocal("title", "Bai 2");
   app.setBaseViewsDir([join(process.cwd(), "views")]);
-  await app.listen(3000);
+  await app.listen(3001);
 
   if (module.hot) {
     module.hot.accept();
